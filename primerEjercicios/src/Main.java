@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public void ejercicio1(){
+    public static void ejercicio1(){
 
         float precio, desc;
 
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("El precio con descuento es: " + (precio - (precio * desc)/100));
     }
 
-    public void ejercicio2(){
+    public static void ejercicio2(){
 
         int num, i, b;
         Scanner lectura = new Scanner(System.in);
@@ -50,7 +50,7 @@ public class Main {
 
     }
 
-    public void ejercicio3(){
+    public static void ejercicio3(){
 
         float celsius, faren;
         Scanner lectura = new Scanner(System.in);
@@ -64,7 +64,7 @@ public class Main {
 
     }
 
-    public void ejercicio4(){
+    public static void ejercicio4(){
 
         int num, i, resul;
 
